@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bodyLandPage {
+  background-color: rgba(128, 128, 128, 0.586);
+  font-family: monospace;
+}
+.bodyLandPage .container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+.bodyLandPage .container .box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.bodyLandPage .container .box:hover {
+  transform: scale(1.1);
+  transition: all 1s ease;
+  box-shadow: 0px 0px 30px white;
+}
+.bodyLandPage .container a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 40px;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bodyLandPage .container p {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.bodyHome {
+  background-color: rgba(128, 128, 128, 0.586);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.headerIndex {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: black;
+  height: 150px;
+  margin: auto;
+  padding: 20px;
+}
+.headerIndex .titleIndex {
+  color: black;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: monospace;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.headerIndex .menuBarIndex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.headerIndex #Home {
+  background-color: white;
+  color: #1f1f1f;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 5px;
+}
+.headerIndex #Contact {
+  background-color: white;
+  color: #1f1f1f;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 5px;
+}
+.headerIndex #AboutMe {
+  background-color: white;
+  color: #1f1f1f;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.containerHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+.containerHome h3 {
+  color: white;
+  background-color: #1f1f1f;
+  margin: 20px;
+  text-align: center;
+  text-decoration: solid;
+  font-weight: bolder;
+  border-radius: 5px;
+  box-shadow: 15px 15px 0px gray;
+}
+.containerHome .HTML {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .HTML:hover::after {
+  content: ": Manejo un 90% del lenguaje de HyperMarcado de texto";
+}
+.containerHome .HTML:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .cssSASS {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .cssSASS:hover::after {
+  content: ": Poseo un control del 70% de Css y del preprocesador SASS, aun me queda mucho por aprender ya que es un leguanje de estilos de cascada muy extenso";
+}
+.containerHome .cssSASS:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .GIT {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .GIT:hover::after {
+  content: ": Manejo un 85% de los comandos a la hora de usar gitbash, como no, los mas importantes (git init ,git add ., git status, git clone, git commit -m " ", git push -u origin/main).";
+}
+.containerHome .GIT:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .BOOTSTRAP {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .BOOTSTRAP:hover::after {
+  content: ": Controlo un 75% de Boostrap, cada tiempo refresco la memoria con las clases a utilizar para el maquetado del sitio web, aunque tambien me gusta maquetar bajo mis propios medios.";
+}
+.containerHome .BOOTSTRAP:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .SEO {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .SEO:hover::after {
+  content: ": Tengo un buen manejo de SEO, conozco palabras claves con respecto al sitio web con el que este trabajando, no abuso de las etiquetas, ya que mientras mas variedad de etiquetas y menos abuso de las mismas, ayuda en el SEO";
+}
+.containerHome .SEO:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .responsiveDESIGN {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .responsiveDESIGN:hover::after {
+  content: ": Controlo el uso de las MediaQuerys para generar que el sitio sea visto tanto por mobiles de baja resolucion como para pantallas de maxima resolucion, trabajo con la metodologia MobileFirst, junto con FLEXBOX/GRIDS, (Mi favorito es flexbox ;)";
+}
+.containerHome .responsiveDESIGN:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .javaSCRIPT {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .javaSCRIPT:hover::after {
+  content: ": Todavia no tengo muchas experiencia en el lenguaje de programacion Java Script, sigo aprendiendo gracias a los cursos de Coder House (Muy recomendados)";
+}
+.containerHome .javaSCRIPT:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .REACT {
+  color: white;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 5px;
+}
+.containerHome .REACT:hover::after {
+  content: ": Todavia no poseo conocimientos sobre React con el tiempo voy a ir actualizando mis conocimientos para dominar la profesion como developer";
+}
+.containerHome .REACT:hover {
+  box-shadow: 0px 0px 50px #ffffff;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+.containerHome .alert {
+  color: #ffffff;
+  background-color: #1f1f1f;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=styles.css.map */

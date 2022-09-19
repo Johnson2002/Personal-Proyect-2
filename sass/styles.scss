@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;   
+}
+.bodyLandPage {
+    background-color: rgba(128, 128, 128, 0.586);
+    font-family: monospace;
+
+    .container {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+
+        .box {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            background-color: #ffff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            transition: all 1s ease;
+            box-shadow: 0px  0px 30px #ffff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffff;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 40px;
+            background-color: #1f1f1f;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        p {
+            background-color: #1f1f1f;
+            color: #ffff;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
+
+//Home
+.bodyHome {
+    background-color: rgba(128, 128, 128, 0.586);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.headerIndex {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+    height: 150px;
+    margin: auto;
+    padding: 20px;
+
+    .titleIndex {
+        color: black;
+        background-color: #ffff;
+        text-align: center;
+        border-radius: 5px;
+        padding: 5px;
+        font-family: monospace;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menuBarIndex {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    #Home {
+        background-color: #ffff;
+        color: #1f1f1f;
+        text-align: center;
+        font-family: monospace;
+        border-radius: 5px;
+    }
+
+    #Contact {
+        background-color: #ffff;
+        color: #1f1f1f;
+        text-align: center;
+        font-family: monospace;
+        border-radius: 5px;
+    }
+
+    #AboutMe {
+        background-color: #ffff;
+        color: #1f1f1f;
+        text-align: center;
+        font-family: monospace;
+        border-radius: 5px;
+    }
+}
+
+.containerHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    gap: 10px;
+
+    h3 {
+        color: white;
+        background-color: #1f1f1f;
+        margin: 20px;
+        text-align: center;
+        text-decoration: solid;
+        font-weight: bolder;
+        border-radius: 5px;
+        box-shadow: 15px 15px 0px gray;
+    }
+
+    .HTML {
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .HTML:hover::after {
+        content: ": Manejo un 90% del lenguaje de HyperMarcado de texto";
+    }
+
+    .HTML:hover {
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .cssSASS {
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .cssSASS:hover::after {
+        content: ": Poseo un control del 70% de Css y del preprocesador SASS, aun me queda mucho por aprender ya que es un leguanje de estilos de cascada muy extenso";
+    }
+
+    .cssSASS:hover {
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .GIT {
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .GIT:hover::after {
+        content: ": Manejo un 85% de los comandos a la hora de usar gitbash, como no, los mas importantes (git init ,git add ., git status, git clone, git commit -m "", git push -u origin/main).";
+    }
+
+    .GIT:hover {
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .BOOTSTRAP {
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .BOOTSTRAP:hover::after {
+        content: ": Controlo un 75% de Boostrap, cada tiempo refresco la memoria con las clases a utilizar para el maquetado del sitio web, aunque tambien me gusta maquetar bajo mis propios medios.";
+    }
+
+    .BOOTSTRAP:hover {
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .SEO {
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .SEO:hover::after {
+        content: ": Tengo un buen manejo de SEO, conozco palabras claves con respecto al sitio web con el que este trabajando, no abuso de las etiquetas, ya que mientras mas variedad de etiquetas y menos abuso de las mismas, ayuda en el SEO";
+    }
+
+    .SEO:hover{
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .responsiveDESIGN{
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .responsiveDESIGN:hover::after {
+        content: ": Controlo el uso de las MediaQuerys para generar que el sitio sea visto tanto por mobiles de baja resolucion como para pantallas de maxima resolucion, trabajo con la metodologia MobileFirst, junto con FLEXBOX/GRIDS, (Mi favorito es flexbox ;)";
+    }
+
+    .responsiveDESIGN:hover {
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .javaSCRIPT {
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .javaSCRIPT:hover::after{
+        content: ": Todavia no tengo muchas experiencia en el lenguaje de programacion Java Script, sigo aprendiendo gracias a los cursos de Coder House (Muy recomendados)";
+    }
+
+    .javaSCRIPT:hover{
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .REACT {
+        color: #ffff;
+        background-color: #1f1f1f;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .REACT:hover::after {
+        content: ": Todavia no poseo conocimientos sobre React con el tiempo voy a ir actualizando mis conocimientos para dominar la profesion como developer";
+    }
+
+    .REACT:hover {
+        box-shadow: 0px 0px 50px #ffffff;
+        padding: 15px;
+        transition: all .3s ease;
+    }
+
+    .alert{
+        color: #ffffff;
+        background-color: #1f1f1f;
+        font-style: italic;
+        font-weight: bolder;
+    }
+}
